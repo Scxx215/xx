@@ -1,0 +1,83 @@
+  /*无边框*/
+
+  .noBorder {
+      border: none !important;
+  }
+  /*遮罩层*/
+
+  .mask {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, .5);
+      z-index: 999;
+  }
+  /*验证*/
+
+  .validate {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2rem;
+      background: #DD1919;
+      z-index: 1;
+      color: #fff;
+      line-height: 2rem;
+      text-align: center;
+      font-size: .875rem;
+  }
+  /*boxSizing 可继承类*/
+
+  .borderBox {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  /*flex组 可继承类*/
+
+  .flexRow {
+      display: box;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+  }
+ /*flex布局 纵向 可继承类*/
+  .flexCol {
+      display: box;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      -o-flex-direction: column;
+      flex-direction: column;
+  }
+  .flextransverse {
+      display: box;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+      -moz-flex-direction: row;
+      -ms-flex-direction: row;
+      -o-flex-direction: row;
+      flex-direction: row;
+  }
+/*flex布局 换行 可继承类*/
+  .flexWrap{
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
